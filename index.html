@@ -1,0 +1,185 @@
+<html lang="en" class=""><head>
+    <meta charset="UTF-8">
+    <title>简历生成器</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body style="padding-right: 0px;">
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait" style="background-image: url(&quot;http://lab.vtest.org:8080/gongjun/public/static/images/face.png&quot;);"></div>
+                
+                <h1 id="username" contenteditable="true">龚俊</h1>
+                <h4 id="persona-tag" contenteditable="true">PHP / Web / 项目管理</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title" contenteditable="true">基本信息</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">姓名</label><span class="label-value" contenteditable="true">龚俊</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">学历</label><span class="label-value" contenteditable="true">本科</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">毕业院校</label><span class="label-value" contenteditable="true">南京师范大学</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">毕业年份</label><span class="label-value" contenteditable="true">2006</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title" contenteditable="true">联系方式</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">QQ</label><span class="label-value" contenteditable="true">117680527</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">邮箱</label><span class="label-value" contenteditable="true">gongjun123321@163.com</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">个人主页</label><span class="label-value" contenteditable="true">lab.vtest.org:8080/gongjun</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">Github</label><span class="label-value" contenteditable="true">github.com/njgj</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title" contenteditable="true">技能点</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">PHP/WAMP/LAMP</label>
+                        <progress value="80" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">Asp.net/ASP</label>
+                        <progress value="70" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">H5+CSS3+JS</label>
+                        <progress value="58.59375" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">Python、Vue</label>
+                        <progress value="60" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title" contenteditable="true">技术栈</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">前端</label><span class="label-value" contenteditable="true">jQuery、Vue.js、BootStrap</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                    <li>
+                        <label class="left-label" contenteditable="true">后端</label><span class="label-value" contenteditable="true">PHP、ThinkPHP、Laravel、Asp.net、Asp、Python</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                    <li>
+                        <label class="left-label" contenteditable="true">其它</label><span class="label-value" contenteditable="true">Ps、CDR等</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title" contenteditable="true">个人微信</span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="http://lab.vtest.org:8080/gongjun/public/static/images/weixin.png" alt="">
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title" contenteditable="true">教育经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3 contenteditable="true">南京师范大学 - 信息管理与信息系统 专业（本科）2002-2006</h3>
+                        <p contenteditable="true"></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title" contenteditable="true">工作经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3 contenteditable="true">2018.3-至今，江苏省生产力促进中心－理化测试服务中心（项目经理）</h3>
+                        <p contenteditable="true"></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <h3 contenteditable="true">2006.7-2018.3，江苏省生产力促进中心－创新平台管理与服务处（项目主管、项目经理）</h3>
+                        <p contenteditable="true"></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title" contenteditable="true">个人项目</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3 contenteditable="true">2019/4-2019/5 &nbsp;吴中高新区一站式科技服务中心</h3>
+                        <p contenteditable="true">网站：http://www.s-park.org.cn:8080/wzgxq&nbsp;<br>WebApp：http://www.s-park.org.cn:8080/wzgxq/app &nbsp;
+                        </p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <h3 contenteditable="true">2019/2-至今 &nbsp;个人APP</h3>
+                        <p contenteditable="true">vue全家桶&nbsp;<br>http://58.213.132.92:8080/app
+                        </p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <h3 contenteditable="true">2018/11-2018/11 &nbsp;江苏省理化测试中心</h3>
+                        <p contenteditable="true">
+                            tp5+layui+bootstrap&nbsp;<br>http://jslh.jspc.org.cn
+                        </p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <h3 contenteditable="true">2018/7-2018/8 &nbsp;苏州轨道交通S1文件管理系统</h3>
+                        <p contenteditable="true">tp5+layui+mysql<br>
+                             http://s1.stcs.org.cn</p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                <li>
+                        <h3 contenteditable="true">2017/3-至今 &nbsp; 实验室云服务平台(LIMS)</h3>
+                        <p contenteditable="true">仪器设备在线预约、耗材管理、计时计费、短信平台等
+http://lab.vtest.org:8080/njnu/&nbsp;<br>http://lab.vtest.org:8080/nsdsky/</p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li><li>
+                        <h3 contenteditable="true">2016/8-2016/11 &nbsp;苏南国家自主创新区网站</h3>
+                        <p contenteditable="true">苏南国家自主创新示范区官方门户网站<br>http://www.s-park.org.cn&nbsp;</p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li><li>
+                        <h3 contenteditable="true">2015/8-至今 &nbsp;金册网V3.0(检测平台)
+</h3>
+                        <p contenteditable="true">江苏省一站式检测公共服务平台（检测类电子商务平台、第三方登录与在线支付）<br>&nbsp;http://www.vtest.org &nbsp;
+                        </p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li><li>
+                        <h3 contenteditable="true">2011/9-至今 江苏省大型科学仪器设备共享服务平台</h3>
+                        <p contenteditable="true">仪器设备数据报送、Oauth认证、WebService接口等<br>http://www.yqgx.org &nbsp;</p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li></ul>
+            </div>
+            
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title" contenteditable="true">自我评价</span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <p contenteditable="true" style="line-height:2em;">&nbsp; &nbsp; 1982年10月出生，本科学历，中级工程师，PMP。2006年6月至今，在江苏省生产力促进中心▪理化测试服务中心担任技术经理职务。围绕科技系统信息服务，从事软件开发、研究等工作，先后参与省级科研项目6项，并作为主要开发人员，并作为主要开发人员，先后开发了金册网（江苏省一站式检测公共服务平台）、苏南国家自主创新示范区等网站，获取软件著作权10多项（主要开发）。<br></p>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="portrait-modal" tabindex="-1">
+                    <h3 contenteditable="true">请输入图片URL地址：</h3>
+                    <br>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="weixin-modal" tabindex="-1">
+                <h3 contenteditable="true">请输入图片URL地址：</h3>
+                <br>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div></div></body></html>
